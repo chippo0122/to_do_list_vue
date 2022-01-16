@@ -64,6 +64,7 @@ export default {
   outline: 2px solid #ff6700;
   border-radius: 30px;
   overflow: hidden;
+  z-index: 0;
   .insert-input {
     width: 80%;
     display: block;
