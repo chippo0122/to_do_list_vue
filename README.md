@@ -9,7 +9,8 @@ Show on https://chippo0122.github.io/to_do_list_vue/
 * 清除全部任務功能
 * 進度條提醒功能
 * 操作通知提醒功能
-* 使用說明
+
+## 使用說明
 
 ![image](./src/assets/intro1.jpg)
 
