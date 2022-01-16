@@ -3,7 +3,7 @@
     <input
       class="insert-input text-light"
       type="text"
-      placeholder="請輸入代辦事項"
+      placeholder="請輸入待辦事項"
       v-model="insertInput"
     />
     <button @click="setInput" class="insert-btn bg-primary text-light">
