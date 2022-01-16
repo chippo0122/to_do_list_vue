@@ -54,6 +54,7 @@ export default {
   outline: 1px solid #ff7600;
   border-radius: 30px;
   overflow: hidden;
+  transform: rotate(0deg);
   z-index: 0;
 
   .progress {
@@ -80,9 +81,8 @@ export default {
         transparent
       );
       animation: loading infinite ease 1.5s;
-      -webkit-animation: webkit-loading infinite ease 1.5s;
-      -moz-animation: moz-loading infinite ease 1.5s;
-      -o-animation: o-loading infinite ease 1.5s;
+      -webkit-animation: loading infinite ease 1.5s;
+      -moz-animation: loading infinite ease 1.5s;
     }
 
     .progress-info {
@@ -134,56 +134,20 @@ export default {
   @keyframes loading {
     0% {
       transform: translateX(-100%);
-    }
-
-    50% {
-      transform: translateX(0%);
-    }
-
-    100% {
-      transform: translateX(100%);
-    }
-  }
-
-    @-webkit-keyframes webkit-loading {
-    0% {
       -webkit-transform: translateX(-100%);
-    }
-
-    50% {
-      -webkit-transform: translateX(0%);
-    }
-
-    100% {
-      -webkit-transform: translateX(100%);
-    }
-  }
-
-    @-moz-keyframes moz-loading {
-    0% {
       -moz-transform: translateX(-100%);
     }
 
     50% {
+      transform: translateX(0%);
+      -webkit-transform: translateX(0%);
       -moz-transform: translateX(0%);
     }
 
     100% {
+      transform: translateX(100%);
+      -webkit-transform: translateX(100%);
       -moz-transform: translateX(100%);
-    }
-  }
-
-    @-o-keyframes o-loading {
-    0% {
-      -o-transform: translateX(-100%);
-    }
-
-    50% {
-      -o-transform: translateX(0%);
-    }
-
-    100% {
-      -o-transform: translateX(100%);
     }
   }
 }
