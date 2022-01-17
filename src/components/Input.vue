@@ -61,7 +61,7 @@ export default {
 .insert-section {
   display: flex;
   width: 100%;
-  outline: 2px solid #ff6700;
+  border: 2px solid #ff6700;
   border-radius: 30px;
   overflow: hidden;
   transform: rotate(0deg);

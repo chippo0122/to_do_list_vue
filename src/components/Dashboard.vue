@@ -51,7 +51,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  outline: 1px solid #ff7600;
+  border: 1px solid #ff7600;
   border-radius: 30px;
   overflow: hidden;
   transform: rotate(0deg);
