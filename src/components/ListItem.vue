@@ -159,6 +159,8 @@ export default {
     .title {
       font-size: 1.15rem;
       margin-bottom: 0.25rem;
+      word-wrap: break-all;
+      word-break: break-all;
     }
 
     .set-time {
